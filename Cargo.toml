@@ -1,0 +1,11 @@
+[package]
+name = "minimal_c_compiler"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "minimal_c_compiler"
+path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1.0"
